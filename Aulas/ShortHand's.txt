@@ -1,0 +1,13 @@
+1-Para faciliatar a configuração das fontes evitando degitar varias linhas é possivel:
+    Noramal:
+            h1{
+                font-family: 'Work Sans', sans-serife;
+                font-weigth: bolder;
+                font-size: 3em;
+                sont-style: italic;
+            }
+    Shorthand:
+            -configuração: -font-style -> font-weigth -> font-size -> font-family
+            h1{
+                font: italic bolder 3em 'Work Sans', sans-serife;
+            }
