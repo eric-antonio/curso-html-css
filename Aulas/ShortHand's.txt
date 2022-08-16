@@ -11,3 +11,7 @@
             h1{
                 font: italic bolder 3em 'Work Sans', sans-serife;
             }
+2-Para identificar fontes :
+    https://www.whatfontis.com/
+    https://www.fontsquirrel.com/
+    https://www.myfonts.com/
