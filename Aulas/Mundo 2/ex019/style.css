@@ -14,12 +14,13 @@ h1{
 }
 h1#principal{
     text-align: center;
-    background-color:#D7907B;
+    
 
 }
 
 h2{
     color:#B3679B;
+    font-weight: 100;
 }
 .basico{
     color: #ff00ae;
@@ -27,4 +28,7 @@ h2{
 .intermediario{
     color: #ff6a00;
 
+}
+.destaque{
+    background-color: #7767b3;
 }
