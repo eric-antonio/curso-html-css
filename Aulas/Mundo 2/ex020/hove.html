@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo dee Hover</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div{
+            display: inline;
+            width: 200px;
+            height: 400px;
+            background-color: aqua;
+            border: 1px solid bisque;
+        }
+
+        div > p{
+            /*Aqui diz que o paragrafo 'e filho da div 
+            e que não deve exibir o paragrafo!*/
+            display: none;
+        }
+
+        div:hover > p{
+            /*Aqui bloqueamos a ação do paragrafo anterior!*/
+            display: block;
+            color: aliceblue;
+
+            background-color: rgb(255, 10, 10);
+        }
+        div:hover{
+            color:brown ;
+        }
+
+        #paragrafo{
+            background-color:blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Hover</h1>
+    <p>Passe o mouse  sobre o texto a a baixo</p>
+    <div>
+        passe o mouse aqui!
+        <p>Texto escondido.</p>
+    </div>
+    <p id="paragrafo">Fim da div</p>
+    
+</body>
+</html>
