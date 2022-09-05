@@ -5,8 +5,8 @@ body{
 }
 header{
     background-color: blanchedalmond;
-    box-shadow: 1px rgba(0, 0, 0, 0.301);
-    border-radius: 5x;
+    box-shadow: 3px rgba(0, 0, 0, 0.301);
+    border-radius: 0px 20px;
     margin: 10px;
     padding: 10px;
     width: 1200;
@@ -29,8 +29,8 @@ nav > a:hover{
 }
 main{
     background-color: rgb(124, 196, 196);
-    box-shadow: 2px rgba(0, 0, 0, 0.301);
-    border-radius: 10px;
+    box-shadow: 4px rgba(0, 0, 0, 0.301);
+    border-radius: 20px 0px;
     margin: 10px;
     padding: 10px;
 }
