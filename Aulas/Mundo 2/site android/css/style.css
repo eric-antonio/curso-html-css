@@ -22,11 +22,16 @@
     margin: 0px;
     padding: 0px;
 }
+
+
            /*Body Config*/
 body{
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
 }
+
+
+
           /*Header Config*/
 header{
     /*background-image: linear-gradient(to bottom, var(--cor3), var (var(--cor4)));*/
@@ -90,11 +95,19 @@ main{
     border-bottom-right-radius: 10px;
 }
 
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1em;
+}
+
 main img{
     width: 100%;
 }
 main img.pequena{
-    width: 50%;
+    
+    max-width: 350px;
     display: block;
     margin: auto;
 }
