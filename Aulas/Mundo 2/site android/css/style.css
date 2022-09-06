@@ -59,5 +59,8 @@ main h2{
     
 }
 
-            /*Footer
-             Config*/
+            /*Footer Config*/
+footer{
+    background-color: var(--cor6);
+    color: white;
+}
