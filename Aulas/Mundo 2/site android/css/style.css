@@ -30,11 +30,14 @@ body{
           /*Header Config*/
 header{
     background-color: var(--cor4);
+    min-height: 150px;
+    text-align: center;
 }
 
 header >h1{
     color: white;
     font-family: var(--fonte-destaque);
+    
 }
 
 header > p{
