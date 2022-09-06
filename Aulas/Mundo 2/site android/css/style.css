@@ -61,11 +61,14 @@ nav{
     padding: 10px;
     text-decoration: none;
     box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.589);
+   
 }
 nav > a{
     color: white;
     padding: 10px;
     text-decoration: none;
+    border-radius: 5px;
+    transition-duration: 0.5s;
 }
 nav > a:hover{
     background-color: #3ddc84;
