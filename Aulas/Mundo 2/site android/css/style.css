@@ -18,6 +18,10 @@
     --fonte-destaque: 'Bebas Neue','cursive';
     --fonte-android: 'Android', 'cursive';
 }
+*{
+    margin: 0px;
+    padding: 0px;
+}
            /*Body Config*/
 body{
     background-color: var(--cor0);
