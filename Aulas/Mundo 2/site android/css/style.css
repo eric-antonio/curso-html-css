@@ -109,6 +109,14 @@ main strong > a{
     background-color: var(--cor1);
     padding: 2px;
 }
+main a{
+    text-decoration: none;
+}
+main a:hover{
+    color: var(--cor2);
+    text-decoration: underline;
+    
+}
 main img{
     width: 100%;
 }
@@ -125,6 +133,9 @@ main h1{
 }
 
 main h2{
+    color: var(--cor4);
+    background-image: linear-gradient(to right, var(--cor2),transparent);
+    font-size: 1.3em;
     font-family: var(--fonte-android);
     
     
