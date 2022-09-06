@@ -32,16 +32,24 @@ header{
     background-color: var(--cor4);
     min-height: 150px;
     text-align: center;
+    padding-top: 40px;
 }
 
 header >h1{
     color: white;
     font-family: var(--fonte-destaque);
+    margin-bottom: 20px;
     
 }
 
 header > p{
+    font-size: var(--fonte-padrao);
+    font-size: 1.2em;
     color: white;
+    max-width: 600px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
 }
            /*Nav Config*/
 nav{
