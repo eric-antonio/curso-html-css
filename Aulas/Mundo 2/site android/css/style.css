@@ -29,7 +29,8 @@ body{
 }
           /*Header Config*/
 header{
-    background-color: var(--cor4);
+    /*background-image: linear-gradient(to bottom, var(--cor3), var (var(--cor4)));*/
+    background-image: linear-gradient(var(--cor3),  var(--cor5));
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
@@ -39,6 +40,8 @@ header >h1{
     color: white;
     font-family: var(--fonte-destaque);
     margin-bottom: 20px;
+    font-size: 3em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.507);
     
 }
 
@@ -50,6 +53,7 @@ header > p{
     padding-left: 10px;
     padding-right: 10px;
     margin: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.507);
 }
            /*Nav Config*/
 nav{
