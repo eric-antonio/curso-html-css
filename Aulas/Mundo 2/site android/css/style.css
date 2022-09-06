@@ -99,9 +99,16 @@ main p{
     margin: 15px 0px;
     text-align: justify;
     text-indent: 30px;
-    line-height: 1em;
+    font-size: 1em;
+    line-height: 2em;
 }
 
+main strong > a{
+    color: var(--cor4);
+    font-weight: bold;
+    background-color: var(--cor1);
+    padding: 2px;
+}
 main img{
     width: 100%;
 }
