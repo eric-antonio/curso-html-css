@@ -8,6 +8,7 @@
 
 :root{
     --cor0: #c5ebd6;
+    --cor1: #a5facb;
     --cor2: #83e1ad;
     --cor3: #3ddc84;
     --cor4: #2fa866;
@@ -58,7 +59,9 @@ header > p{
     max-width: 600px;
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 10px;
     margin: auto;
+    
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.507);
 }
            /*Nav Config*/
@@ -70,7 +73,7 @@ nav{
    
 }
 nav > a{
-    color: white;
+    color: var(--cor1);
     padding: 10px;
     text-decoration: none;
     border-radius: 5px;
@@ -78,7 +81,7 @@ nav > a{
 }
 nav > a:hover{
     background-color: #3ddc84;
-    color: #063d1e;
+    color: white;
 
 }
 
@@ -156,12 +159,30 @@ aside > ul{
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.705);
 }
 
+div.video{
+    background-color: white;
+    margin: 0px -20px 40px -20px;
+    padding-bottom: 59.0%;
+    position: relative;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    min-width: 278px;
+    min-height: 245px;
+}
+
 aside > h3 {
     background-color: var(--cor4);
     color: white;
     padding: 5px;
     margin: -10px -10px 0px -10px;
     border-radius: 10px 10px 0px 0px;
+
     
 }
 
