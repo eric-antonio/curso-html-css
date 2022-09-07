@@ -129,14 +129,16 @@ main img.pequena{
 }
 main h1{
     font-family: var(--fonte-android);
-    color: var(--cor5)
+    color: var(--cor5);
+    font-size: 1.8em;
+    font-weight: normal;
     
 }
 
 main h2{
     color: var(--cor4);
     background-image: linear-gradient(to right, var(--cor2),transparent);
-    font-size: 1.3em;
+    font-size: 1.4em;
     font-weight: normal;
     font-family: var(--fonte-android);
     
