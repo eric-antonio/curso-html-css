@@ -7,22 +7,26 @@
     <title>Document</title>
     <style>
         #container{
-            position: relative;
-            background-size: 100% 100%;
-            height: 500px;
-            padding: 15px;
             background-image: url('img/target001.png');
+            background-size: 100% 100%;
+            position: relative;
+            
+            height: 96vh;
+            padding: 15px;
             background-color: palevioletred;
 
         }
         #conteudo{
+            background-image: url('img/target001.png');
+            background-size: 100% 100%;
             position: absolute;
             height: 200px;
             width: 400px;
             background-color: yellowgreen;
 
-            left: 100px;
-            top: 100px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-200px ,-100px);
         }
 
     </style>
