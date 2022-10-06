@@ -36,6 +36,11 @@ header a, footer a{
     text-decoration: underline;
     color: rgb(158, 253, 253);
 }
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
 
 section.normal{
     background-color: white;
