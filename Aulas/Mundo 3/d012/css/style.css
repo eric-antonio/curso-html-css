@@ -36,3 +36,11 @@ header a, footer a{
     text-decoration: underline;
     color: rgb(158, 253, 253);
 }
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    margin-top: 10px;
+}
