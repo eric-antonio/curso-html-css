@@ -37,10 +37,21 @@ header a, footer a{
     color: rgb(158, 253, 253);
 }
 
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+
 footer{
     background-color: black;
     color: white;
     text-align: center;
     padding: 40px;
-    margin-top: 10px;
+    
 }
