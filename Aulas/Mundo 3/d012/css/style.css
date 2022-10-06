@@ -9,3 +9,15 @@ html, body{
     min-height: 100vh;
     background-color: darkgray;
 }
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    padding-top: 50px;
+    /* Deixa as todas em maiusculas com destaque das primeiras letras de cada palavara! */
+    font-variant: small-caps;
+}
