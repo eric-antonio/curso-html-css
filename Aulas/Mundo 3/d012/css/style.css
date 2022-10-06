@@ -21,3 +21,18 @@ header > h1{
     /* Deixa as todas em maiusculas com destaque das primeiras letras de cada palavara! */
     font-variant: small-caps;
 }
+
+header > p{
+    padding-bottom: 50px;
+}
+
+header a, footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+ header a:hover , footer a:hover{
+    text-decoration: underline;
+    color: rgb(158, 253, 253);
+}
