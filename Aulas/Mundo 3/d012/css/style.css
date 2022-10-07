@@ -1,8 +1,17 @@
 /*  Configurações basicas do site! */
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+/* Criando variaveis para s fontes! */
+:root{
+    --fonte1:Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2:'Passion One', cursive;
+    --fonte3:'Sriracha', cursive;
+}
 *{
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 /* Configurações de personalizadas! */
 html, body{
@@ -14,9 +23,12 @@ header{
     background-color: black;
     color: white;
     text-align: center;
+    font-family: var(--fonte1);
 }
 
 header > h1{
+    font-family: var(--fonte2);
+    font-size: 3.5em;
     padding-top: 50px;
     /* Deixa as todas em maiusculas com destaque das primeiras letras de cada palavara! */
     font-variant: small-caps;
@@ -37,10 +49,12 @@ header a, footer a{
     color: rgb(158, 253, 253);
 }
 section{
+    font-family: var(--fonte3);
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-size: 3vw;
 }
 
 
@@ -54,7 +68,8 @@ section.imagem{
     color: white;
 }
 section.imagem > p{
-    width: 300px;
+    display: inline-block;
+    padding: 5px;
     background-color:rgba(0, 0, 0, 0.425);
 }
 
