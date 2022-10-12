@@ -5,10 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela002</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 250px;
+            height: 200px;
+            border-collapse: separate;
+            border: 2px solid #000000;
+
+        }
+        th{
+            background-color: gray;
+        }
+        td , th{
+            padding:4px;
+            border: 2px solid #000000;
+        }
+
+        tfoot{
+            background-color: gray;
+        }
+    </style>
 </head>
 <body>
+    <h1>Uso de Tableas Grandes</h1>
+    <!-- Anatomia para Tabelas Grandes -->
     <table>
-        <tr> </tr>
+        <thead>
+            <tr>
+                <th>Estados</th>
+                <th>População</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>2323 23 23</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th>Total de Hbitantes</th>
+                <td>100.0000</td>
+            </tr>
+
+        </tfoot>
+       
     </table>
     
 </body>
