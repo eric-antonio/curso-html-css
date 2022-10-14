@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    width: 500px;
+    height: 500px;
+    border-collapse: collapse;
+    border: 2px solid #000000;
+    position: relative;
+
+}
+tbody > tr:nth-child(2n){ 
+    /* odd ou even (2n) */
+    background-color: lightgray;
+}
+caption{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightblue;
+}
+thead > tr >th{
+    position: sticky;
+    top: 0;
+    background-color:gray ;
+}
+
+th{
+    background-color: gray;
+}
+td , th{
+    padding:4px;
+    border: 2px solid #000000;
+}
+.num{
+    text-align: right;
+}
+
+tfoot{
+    background-color: gray;
+}
+.pp{
+    width: 100px;
+}
