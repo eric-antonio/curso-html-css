@@ -11,7 +11,7 @@
         }
         table{
             width: 500px;
-            height: 100px;
+            height: 250px;
             text-align: center;
             margin: 50px 0px 0px 20px;
             border: 1PX solid black;
@@ -39,16 +39,16 @@
         </caption>
         <thead>
             <tr>
-                <th>Grupos</th>
-                <th>Nomes</th>
-                <th colspan="3">Filmes</th>
+                <th scope="col">Grupos</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
             </tr>
         </thead>
 
         <tbody>
             <!-- mulheres -->
           <tr>
-            <th rowspan="3">Mulheres</th>
+            <th rowspan="3" scope="rowgroup">Mulheres</th>
             <td>Ana Maria Santos</td>
             <td>Alien</td>
             <td>Rambo</td>
@@ -72,7 +72,7 @@
           <!-- homens -->
 
           <tr>
-            <th rowspan="3">Homens</th>
+            <th rowspan="3" scope="rowgroup">Homens</th>
             <td>Bruno Mendonça</td>
             <td>Intoáveis</td>
             <td>Amnésia</td>
@@ -93,6 +93,10 @@
             <td>Toy Story</td>
           </tr>
 
+          <tfoot>
+            <th colspan="4" scope="row">Total </th>
+            <td>18</td>
+          </tfoot>
         </tbody>
     </table>
     
