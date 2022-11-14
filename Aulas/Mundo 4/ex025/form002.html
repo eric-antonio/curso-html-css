@@ -8,16 +8,16 @@
 </head>
 <body>
 
-    <form action="cadastro.php" method="POST" autocomplete="off">
+    <form action="cadastro.php" method="POST" autocomplete="on">
         <p>
             <label for="iusu">Usuario:</label>
-            <input type="text" name="usuario" id="iusu" required  minlength="5" maxlength="10">
+            <input type="text" name="usuario" id="iusu" required  minlength="5" maxlength="20" placeholder="user" autocomplete="username">
         </p>
 
 
         <p>
             <label for="isenha">Senha</label>
-            <input type="password" name="senha" id="isenha" required  minlength="8" >
+            <input type="password" name="senha" id="isenha" required  minlength="8"  maxlength="15" placeholder="password" autocomplete="current-password">
         </p>
 
         <p>
