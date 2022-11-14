@@ -14,7 +14,7 @@
 </head>
 <body>
     <h1>Meu primeiro Formulario</h1>
-    <form action="cadastro.php" autocomplete="off">
+    <form action="cadastro.php" autocomplete="off" method="post">
         <p>
             <label for="inome">Nome: </label>
             <input type="text" name="nome" id="inome">
@@ -22,6 +22,10 @@
         <p>
             <label for="iSobrenome">Sobrenome:</label>
             <input type="text" name="Sobrenome" id="iSobrenome">
+        </p>
+        <p>
+            <label for="isenha">Senha:</label>
+            <input type="password" name="senha" id="isenha">
         </p>
         <p><input type="submit" value="Enviar"></p>
     </form>
