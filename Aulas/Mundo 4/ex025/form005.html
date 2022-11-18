@@ -12,41 +12,46 @@
 
         <fieldset>
             <legend>Dados do Usuario</legend>
-            <p>
-                <label for="inome">Nome:</label>
-                <input type="text" name="nome" id="inome" required autocomplete="name">
-            </p>
-            <p>
-                <label for="iapelido">Sobrenome</label>
-                <input type="text" name="sobrenome" id="iapelido">
-            </p>
-            <p>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Limpar">
-            </p>
-        </fieldset>
+            <fieldset>
+                <legend>Nome & Sobrenome</legend>
+                <p>
+                    <label for="inome">Nome:</label>
+                    <input type="text" name="nome" id="inome" required autocomplete="name">
+                </p>
+                <p>
+                    <label for="iapelido">Sobrenome</label>
+                    <input type="text" name="sobrenome" id="iapelido">
+                </p>
 
-        <fieldset>
-            <legend>Disportos Favoritos</legend>
-            <label for="ifut">Futebol</label>
-            <input type="checkbox" name="esposte" id="ifut">;
+                <p>
+                    <label for="imas">Masculino</label>
+                    <input type="radio" name="sexo" id="imas">
 
-            <label for="ibasket">Baskbal</label>
-            <input type="checkbox" name="esposte" id="ibasket">;
-
-
-            <label for="itenis">Tenis</label>
-            <input type="checkbox" name="basket" id="itenis">;
+                    <label for="ifem">Femenino</label>
+                    <input type="radio" name="sexo" id="ifem">
+                </p>
+                <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </p>
+            </fieldset>
 
 
-            <label for="igolf">Golf</label>
-            <input type="checkbox" name="golf" id="igolf">;
-
-            <label for="ivolei">Volei</label>
-            <input type="checkbox" name="volei" id="ivolei">;
-
-            <label for="inatacao">Natação</label>
-            <input type="checkbox" name="nay" id="inatacao">
+            <fieldset>
+                <legend>Disportos Favoritos</legend>
+                <label for="ifut">Futebol</label>
+                <input type="checkbox" name="esposte" id="ifut">;
+                <label for="ibasket">Baskbal</label>
+                <input type="checkbox" name="esposte" id="ibasket">;
+                <label for="itenis">Tenis</label>
+                <input type="checkbox" name="basket" id="itenis">;
+                <label for="igolf">Golf</label>
+                <input type="checkbox" name="golf" id="igolf">;
+                <label for="ivolei">Volei</label>
+                <input type="checkbox" name="volei" id="ivolei">;
+                <label for="inatacao">Natação</label>
+                <input type="checkbox" name="nay" id="inatacao">
+            </fieldset>
         </fieldset>
     </form>
 </body>
