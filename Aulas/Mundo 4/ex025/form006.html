@@ -8,11 +8,24 @@
 </head>
 <body>
 
-    <form action="cadastro.php" method="get">
+    <form action="cadastro.php" method="post">
         <p>
             <label for="icor">Cor:</label>
             <input type="color" name="cor" id="icor">
 
+        </p>
+
+        <p>
+            <label for="inivel">Nivel de Satisfação</label>
+            <input type="range" name="nivel" id="inivel" min="1" max="10" value="0">
+        </p>
+
+
+        <!-- Quando se manada fotos é necessario usar o metodo post -->
+
+        <p>
+            <label for="ifoto">File</label>
+            <input type="file" name="foto" id="ifoto">
         </p>
 
         <p>
