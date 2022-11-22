@@ -11,17 +11,24 @@
 
         <p>
             <label for="in1">Numero 1</label>
-            <input type="number" name="n" id="in1" min="30" max="100" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+            <input type="number" name="n" id="in1" min="10" max="100" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
         </p>
         
         <p>
             <label for="in2">Numero 2</label>
-            <input type="number" name="n" id="in2" min="30" max="100" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)" >
+            <input type="number" name="n" id="in2" min="0" max="100" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)" >
         </p>
         <p>
             <label for="isoma">Soma</label>
             <output name="SOMA" id="isoma">0</output>
-        </p> I
+        </p> 
+
+
+        <p>
+            <label for="inum">Numero</label>
+            <input type="range" name="numero" id="inum" oninput="ival.innerHTML= Number(inum.value)">
+            <output id="ival">0</output>
+        </p>
         <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
