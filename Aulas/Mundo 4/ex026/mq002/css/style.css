@@ -1,2 +1,19 @@
 @charset "UTF-8";
 /* Estilos para Tudo */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html , body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #233EFF;
+}
+
+h1{
+    color: whitesmoke;
+    padding: 10px;
+    text-shadow: 3px 3px 0px #12208d;
+}
