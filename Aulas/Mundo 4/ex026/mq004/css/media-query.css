@@ -2,6 +2,20 @@
 
 
 @media print {
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    body{
+        background-image: url(../img/back-print.jpg); /* Desnecessario*/
+        text-shadow: none;
+        color: black;
+    }
+
+    img#phone{display: none;}
+    img#tablet{display: none;}
+    img#print{display: block;}
+    img#pc{display: none;}
+    img#tv{display: none;}
     
 }
 
@@ -36,6 +50,9 @@
 @media only screen and (min-width: 1200px) {
     body{
         background-image: url(../img/back-tv.jpg);
+    }
+    main{
+        width: 700px;
     }
     img#phone{display: none;}
     img#tablet{display: none;}
