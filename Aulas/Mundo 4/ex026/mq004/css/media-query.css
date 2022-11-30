@@ -7,6 +7,12 @@
     }
     body{
         background-image: url(../img/back-print.jpg); /* Desnecessario*/
+        
+    }
+    main {
+        border: 2px solid black;
+    }
+    main h1{
         text-shadow: none;
         color: black;
     }
