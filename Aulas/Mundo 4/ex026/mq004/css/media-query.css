@@ -7,7 +7,14 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 922px) {
-
+    body{
+        background-image: url(../img/back-tablet.jpg);
+    }
+    img#phone{display: none;}
+    img#tablet{display: block;}
+    img#print{display: none;}
+    img#pc{display: none;}
+    img#tv{display: none;}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
