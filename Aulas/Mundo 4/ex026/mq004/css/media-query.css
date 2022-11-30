@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 @media print {
     *{
         font-family: 'Courier New', Courier, monospace;
@@ -71,5 +70,3 @@
     img#pc{display: none;}
     img#tv{display: block;}
 }
-
-
