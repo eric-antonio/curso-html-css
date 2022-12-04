@@ -25,6 +25,7 @@ header > h1{
     text-align: center;
     background-color: rgb(44, 44, 44);
     display: block;
+    cursor: pointer;
 }
 
 #burguer:hover{
@@ -33,7 +34,7 @@ header > h1{
 }
 
 menu{
-    display: block;
+    display: none;
 }
 
 menu > ul{
