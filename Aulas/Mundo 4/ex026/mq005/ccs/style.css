@@ -37,7 +37,7 @@ menu > ul > li >  a {
 
 }
 menu > ul > li > a:hover{
-    background-color: rgb(173, 173, 173);
+    background-color: rgb(110, 110, 110);
 }
 main{
     width: 90vw;
